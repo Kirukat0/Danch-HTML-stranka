@@ -1,0 +1,26 @@
+table, td {
+  padding: 1px;
+  border:1px solid white;
+}
+body {
+    background-color:blue;
+}
+
+.cervenabarva{
+    color:red;   
+}
+#tyrkysova{
+    color:cyan;
+}
+
+.sedabarva{
+    color:grey;
+}
+    
+div div div div h3{
+    color:red;
+}
+
+body div p{
+    color:yellow;
+}
