@@ -119,7 +119,8 @@ echo"\\";
             echo "<br>";
             $a = 69;
             echo"<br>";
-            $b = 420;
+            $b = 421;
+            
 
             var_dump($a & $b);
  
