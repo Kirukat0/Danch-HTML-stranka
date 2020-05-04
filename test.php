@@ -1,4 +1,5 @@
  <?PHP
+
    echo 420;
 echo"<br>";
 echo"<br>";
