@@ -1,4 +1,4 @@
- <?PHP
+<?PHP
 require 'tracy/tracy.phar';
 use Tracy\Debugger;
 Debugger::enable();
