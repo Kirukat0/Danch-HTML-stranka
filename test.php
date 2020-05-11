@@ -179,5 +179,39 @@ echo"\\";
       );
 dump($produkty);     
  dump($produkty1);
+ $radekIvanDanch=6; 
+$sloupecIvanDanch=16; 
+            echo "<table border=1>";
+            for($i=1;$i<=$radekIvanDanch;$i++) {
+                echo "<tr>";
+for($x=1;$x<=$sloupecIvanDanch;$x++){
+    echo "<td>".$i."-".$x."</td>";
+}
+                echo "</tr>";
+            }
+            echo "</table><br><br><br>";
+
+           echo abs(5)."<br>";
+            echo cos(140)."<br>";
+           $string="Ryujin no ken wo kurae!";
+          echo strstr($string, "its")."<br>";
+          echo strpos($string, "its")."<br>";
+          echo sizeof($produkty);
+          array_splice($produkty, 0, 1, "oi1"); 
+          dump($produkty);
+
+          $i=1;
+          foreach ($produkty as $produkt){
+              echo $i."-".$produkt."<br>";
+              $i++;
+          }
+
+        
+        dump (mocniny(3,5));
+        function mocniny($exponent, $cislo){
+            $cislo=pow($cislo, $exponent);
+            return $cislo;
+        }
+        
  
    ?>
